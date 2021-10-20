@@ -2,5 +2,6 @@
 - name: Install Kibana and filebeat
   hosts: kibana
   roles:
+    - elastic      
     - kibana_role 
     - filebeat_role
